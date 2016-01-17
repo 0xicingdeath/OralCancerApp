@@ -9,9 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.natalie.healthcareapp.side_effects"
-    tools:showIn="@layout/activity_side_effects">
-
+    tools:context="com.example.natalie.healthcareapp.MissingTooMuch"
+    tools:showIn="@layout/activity_missing_too_much">
 
     <ScrollView
         android:id="@+id/ScrollView01"
@@ -23,13 +22,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="false"
-            android:text="Low Blood Counts \n\n"
+            android:text="What do I do if I miss a pill? \n\n 1. If you miss a pill, take it as soon as possible. \n 2. If it's almost time for your next dose, do not take the missed dose, just your usual dose. \n 3. Take your normal anticancer pill dose at the normal time. \n 4. If you miss your dose, make a note on your calendar. Let your primary team know what you missed at your next visit. \n\n\n In the case of accidental dosage, CALL THE POISON CENTRE AT 1-800-268-9017!!!"
             android:textSize="14dp"
             android:textStyle="normal"
             android:enabled="true"
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:textAlignment="viewStart"
-            android:visibility="visible"/>
+            android:visibility="visible" />
+        textView.bringToFront();
     </ScrollView>
 </RelativeLayout>

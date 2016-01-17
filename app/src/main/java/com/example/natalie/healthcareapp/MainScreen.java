@@ -67,7 +67,30 @@ public class MainScreen extends AppCompatActivity {
         startActivity(symptomsPage);
     }
     public void openContactPage(View view){
-        Intent contactPage = new Intent(this,ContactPage.class);
+        Intent contactPage = new Intent(this,ContactInformation.class);
         startActivity(contactPage);
     }
+
+    public void openODPage(View view){
+        Intent OD = new Intent(this,OralTreatments.class);
+        startActivity(OD);
+    }
+    public void openSEPage(View view){
+        Intent SE = new Intent(this,SideEffects.class);
+        startActivity(SE);
+    }
+    public void openProperHSDPage(View view){
+        Intent HSD = new Intent(this,HandlingStorage.class);
+        startActivity(HSD);
+
+    }
+    public void openMDPage(View view){
+        Intent MD = new Intent(this,MissingTooMuch.class);
+        startActivity(MD);
+    }
+    public void openLSPage(View view){
+        Intent LS = new Intent(this,LifestyleConsiderations.class);
+        startActivity(LS);
+    }
+
 }

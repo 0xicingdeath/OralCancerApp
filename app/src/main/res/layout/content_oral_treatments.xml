@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.natalie.healthcareapp.oral_treatments"
+    tools:showIn="@layout/activity_oral_treatments">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="What are oral anticancer drugs? \n\n Oral anticancer treatment is using drugs to treat cancer. These drugs attack and destroy cancer cells or prevent their growth. Oral anticancer drugs can also damage normal cells. Oral anticancer drugs are taken in a pill form by mouth and swallowed. the pill moves through the digestive system into the blood stream and travels through the body. \n\n These drugs may be chemotherapy or biologic therapy. \n\n\n What is chemotheraphy? \n\n Chemotherapy is often called 'chemo.' Many different drugs are avialable as chemotherapy. These drugs can be used alone or in combination to treat a wide variety of cancers. Chemotherapy is a treatment using anticancer (also known as cytotoxic) drugs which aim to destory cancer cells. They may: \n\n -Stop cancer cells from dividing and growing by interrupting cell cycle \n -Make cancer cells less able to grow and spread \n\n What is biologic therapy? \n\n Biologic Therapies are treatments that can act on processes in cells. They may: \n 1. Stop cancer cells from dividing and growing. \n 2. Seek out cancer cells and kill them. \n 3. Encourage the immune system to attack cancer cells. \n\n How is anticancer treatment given? \n\n Anticancer treatment is usually given through: \n 1. In pills, in a tablet or capsule format \n 2. Into your vein. This is called an intraveneous or through the IV. If you require IV chemotherapy at home, the medication is given through a special pump attached to the IV. The pump looks like a baby bottle. \n 3. Sometimes, it is given in a needle in your muscles (IM) or under your skin (SC). \n\n\n How often is treatment? \n\n Most anticancer treatment are given over a period of time. How often can vary; every day, once a week, once a month. The length of treatment also varies as it depends on the type of cancer and the type of treatment. \n\n\n How do I keep track with taking my pills? \n\n 1. Take your anticancer pills the right way. Patients that take their anticancer pills do better than those who do not. Forgetting or misssing your anticancer pills can lead to disease coming back or getting worse. \n 2. use a drug dosette just for your anticancer pills \n 3. There are many ways to keep track - journals, calendars, smartphones. Use what is right for you! Your pharmacist or your primary team can provide suggestions for you as well."
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible" />
+    </ScrollView>
+
+</RelativeLayout>

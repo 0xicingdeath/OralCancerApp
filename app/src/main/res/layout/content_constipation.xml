@@ -30,6 +30,7 @@
             android:focusableInTouchMode="false"
             android:textAlignment="viewStart"
             android:visibility="visible" />
+
     </ScrollView>
 
 </RelativeLayout>

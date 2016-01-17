@@ -47,15 +47,6 @@
                 android:value="com.example.natalie.healthcareapp.MainScreen" />
         </activity>
         <activity
-            android:name=".ContactPage"
-            android:label="@string/title_activity_contact_page"
-            android:parentActivityName=".MainScreen"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.natalie.healthcareapp.MainScreen" />
-        </activity>
-        <activity
             android:name=".Capecitabine"
             android:label="@string/title_activity_capecitabine"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -91,6 +82,30 @@
             android:name=".HandFoot"
             android:label="@string/title_activity_hand_foot"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".OralTreatments"
+            android:label="@string/title_activity_oral_treatments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactInformation"
+            android:label="@string/title_activity_contact_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Emergency"
+            android:label="@string/title_activity_emergency"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HandlingStorage"
+            android:label="@string/title_activity_handling_storage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MissingTooMuch"
+            android:label="@string/title_activity_missing_too_much"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LifestyleConsiderations"
+            android:label="@string/title_activity_lifestyle_considerations"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

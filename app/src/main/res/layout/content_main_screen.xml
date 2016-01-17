@@ -38,8 +38,9 @@
         android:text="Drug List"
         android:id="@+id/druglistBut"
         android:onClick="openDrugPage"
-        android:layout_above="@+id/traveltipsBut"
-        android:layout_alignStart="@+id/traveltipsBut" />
+        android:layout_below="@+id/tv_other"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
 
 
     <Button
@@ -48,8 +49,9 @@
         android:text="Symptoms"
         android:id="@+id/SymptomsBut"
         android:onClick="openSymptomsPage"
-        android:layout_above="@+id/contactBut"
-        android:layout_alignStart="@+id/contactBut" />
+        android:layout_below="@+id/tv_other"
+        android:layout_alignTop="@+id/druglistBut"
+        android:layout_marginLeft="180dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -57,9 +59,9 @@
         android:text="Travel Tips"
         android:id="@+id/traveltipsBut"
         android:onClick="openTravelTipPage"
-        android:layout_alignTop="@+id/contactBut"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="38dp" />
+        android:layout_below="@+id/druglistBut"
+        android:layout_marginLeft="20dp"
+  />
 
     <Button
         android:layout_width="wrap_content"
@@ -67,20 +69,60 @@
         android:text="Contact"
         android:id="@+id/contactBut"
         android:onClick="openContactPage"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/traveltipsBut"
-        android:layout_marginStart="53dp"
-        android:layout_marginBottom="89dp" />
+        android:layout_below="@+id/druglistBut"
+        android:layout_marginLeft="180dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-What are oral anticancer drugs\n-Proper handling/storage/disposal\n-Side Effects/Syndromes\n-Missing a dose/too much\n-Other lifestyle consideration"
-        android:id="@+id/tv_intro"
-        android:textSize="20dp"
+        android:text="-What are oral anticancer drugs"
+        android:id="@+id/tv_oraldrug"
+        android:textSize="18dp"
         android:layout_below="@+id/MainHeader"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="22dp" />
+        android:layout_marginTop="22dp"
+        android:onClick="openODPage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Proper handling / storage / disposal"
+        android:id="@+id/tv_properHSD"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_oraldrug"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:onClick="openProperHSDPage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Side effects / Syndromes"
+        android:id="@+id/tv_SE"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_properHSD"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:onClick="openSEPage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Missing a dose / Taking too much"
+        android:id="@+id/tv_missingdose"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_SE"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:onClick="openMDPage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Other lifestyle considerations"
+        android:id="@+id/tv_other"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_missingdose"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:onClick="openLSPage"/>
     <!--
         <ImageButton
             android:layout_width="60dp"

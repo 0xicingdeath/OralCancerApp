@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.natalie.healthcareapp.HandlingStorage"
+    tools:showIn="@layout/activity_handling_storage">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="How can I safely handle my cancer pills? \n\n 1. When taking your anticancer drugs, it is important for you to wash your hands before and after medication. \n 2. If your pills are supplied in a bottle, you can tap the pill into hte bottle cap and take the pill. Be sure to do this over a table to prevent the pill from falling to the floor. \n 3. If you are filling a dosette, ensure it is dedicated only for your anticancer pills. Wash your hands before and after filling the daily compartments as prescribed. \n 4. If someone else gives you your anticancer pills, they should wear disposable gloves, discard the gloves in a plastic bag and wash their hands. \n\n\n What if I can't swallow my pill or vomit? \n\n 1. Swallow your pill whole. Do not cut or crush. \n 2. If you cannot swallow, please let your primary team know. \n 3. If you vomit right after taking the anticancer pill, do not take another pill. \n 4. Contact your primary team to find out what you should do. \n\n\n Where should I keep my pills? \n\n 1. Do not store your anticancer pills with your regular medications. \n 2. Keep your anticancer pills and medications out of reach of children and pets. \n 3. Bring unused anticancer pills back to the Cancer Centre in a double sealed bag or pill bottle. You can also check with your local pharmacy and bring them there."
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible" />
+        textView.bringToFront();
+    </ScrollView>
+
+</RelativeLayout>
