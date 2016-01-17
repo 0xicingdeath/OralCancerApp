@@ -12,4 +12,80 @@
     tools:context="com.example.natalie.healthcareapp.SymptomsPage"
     tools:showIn="@layout/activity_symptoms_page">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fatigue"
+        android:id="@+id/tv_fatigue"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/tv_sentences"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentStart="true"
+        android:onClick="openFatigue"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      There are side effects with talking anticancer drugs, but not everyone gets all the side effects. you may get some, a few or non of the side effects:"
+        android:id="@+id/tv_sentences"
+        android:textSize="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nausea and Vomiting"
+        android:id="@+id/tv_NNV"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="openNNV"
+        android:layout_below="@+id/tv_fatigue"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diarrhea"
+        android:id="@+id/tv_diarrhea"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="openDiarrhea"
+        android:layout_below="@+id/tv_NNV"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constipation"
+        android:id="@+id/tv_constipation"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="openConstipation"
+        android:layout_below="@+id/tv_diarrhea"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hand and foot syndrome"
+        android:id="@+id/tv_HF"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="openHF"
+        android:layout_below="@+id/tv_constipation"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brusing Bleeding"
+        android:id="@+id/tv_BB"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="openBB"
+        android:layout_below="@+id/tv_HF"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.natalie.healthcareapp.constipation"
+    tools:showIn="@layout/activity_constipation">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="Constipation \n\n Constipation is when you have to strain or push hard to have a bowel movement. You may notice: \n\n 1. Changes to your bowel routine such as no bowel movement for 3+ days. \n 2. Stomach or cramps, feeling bloated, feeling of fullness. \n 3. Passing of Gas \n\n Constipation, if not treated, may cause blockage of the bowel. \n\n To prevent and treat constipation: \n\n 1.Eat foods high in fibre \n 2. Do not delay the urge for a bowel movement. \n 3. Drink 8 or more glasses of liquid per dya. \n 4. Regular exercise and remain active. \n 5. May need to use laxatives or stool softeners. \n\n Call your primary team if you have no bowel movement in 3 days, you observe blood in the bowel movement, or you have abdominal cramps or pain for 2 or more days."
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible" />
+    </ScrollView>
+
+</RelativeLayout>

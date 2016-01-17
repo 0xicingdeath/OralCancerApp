@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.natalie.healthcareapp.diarrhea"
+    tools:showIn="@layout/activity_diarrhea">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="Diarrhea is loose or watery stooles 4 or more times a day. You may also have: \n\n 1. Abdominal cramps, pain or feel bloated. \n 2. Diarrhea can cause you to lose too much water and become dehydrated. Being dehydrated can make you very tired. \n\n If you have diarrhea: \n 1. Take diarrhea medication as directed. \n 2. Eat low fibre food such as BRAT Diet (Bananas, Rice, Applesauce, Toast). \n 3. Drink 8-12 glasses of clear fluids each day, such as water, bouillon, sports drinks, or flat carbonated soda. \n 4. Limit caffeine. \n\n Call your primary team if: \n\n - You have four or more loose bowel movements daily \n\ - Observe blood in bowel movements or bleeding in anal area \n - Have severe abdominal cramps \n - Have diarrhea that lasts longer than 2 days "
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible" />
+    </ScrollView>
+
+</RelativeLayout>
