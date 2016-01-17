@@ -9,8 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.natalie.healthcareapp.emergency"
-    tools:showIn="@layout/activity_emergency">
+    tools:context="com.example.natalie.healthcareapp.Resources"
+    tools:showIn="@layout/activity_resources">
 
     <ScrollView
         android:id="@+id/ScrollView01"
@@ -22,7 +22,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="false"
-            android:text="You need to call 911 if you are: \n\n 1. Having a sudden change in breathing (harder to breathe) \n 2. having chest pain that you haven't had before \n 3. Feeling that your throat is closed up \n 4. Vomiting blood \n \n Infections and bleeding are emergencies. Call your primary team and go to the Emergency Department. \n\n\nIn any case of accidental pill taking, make sure you call the Poison Control Centre at 1(800)-268-9017. Make sure you put this number in your cell phone contacts and around the house! \n\n If your temperature is 38 degrees Celsius or greater and your Primary Team is unavailable (evenings, weekends, holidays), go to the Emergency Department. \n\n Any time you go to an Emergency Department, be sure to provide the following information: \n\n 1. Your name \n 2. Type of cancer \n 3. Oncology team (doctor and nurse's name) \n 4. Name of anticancer drugs \n 5. When was your last treatment? \n 6. Do you have your consent form, if you're part of a clinical trial?  "
             android:textSize="14dp"
             android:textStyle="normal"
             android:enabled="true"
@@ -32,4 +31,28 @@
             android:visibility="visible" />
     </ScrollView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Resources"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="true"
+        android:editable="false"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="56dp"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/textView" />
+
+    http://www.hamiltonhealthsciences.ca/documents/Patient%20Education/PatientFamilyHandbookJCC-th.pdf
 </RelativeLayout>

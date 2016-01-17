@@ -105,6 +105,10 @@
         <activity
             android:name=".LifestyleConsiderations"
             android:label="@string/title_activity_lifestyle_considerations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Resources"
+            android:label="@string/title_activity_resources"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

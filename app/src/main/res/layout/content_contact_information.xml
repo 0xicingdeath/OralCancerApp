@@ -22,7 +22,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="false"
+<<<<<<< Updated upstream
             android:text="This app is written for the Juravinski Cancer Centre, a Cancer Care Ontario Regional Partner. \n\n Located at 699 Concession Street, \n Hamilton, Ontario, L8V 5C2 \n (905)-387-9495 \n\nAnatoli Chkaroubo Jr: anatoli.c.jr@gmail.com \n\n Written by Lin Kun Chen and Natalie Chin at McMaster University."
+=======
+            android:text="Juravinski Cancer Centre, a Cancer Care Ontario Regional Partner. \n\n Located at 699 Concession Street, \n Hamilton, Ontario, L8V 5C2 \n (905)-387-9495 \n\nPharmacy located on the 2nd level of the JCC, close to the main elevators. \n\nOpen Monday to Friday 8am to 5 pm. Closed weekends and statutory holidays.\n\n Phone Number: 905-575-6320 \n\n For: Anatoli Chkaroubo Jr  \n\n Written by Lin Kin Chen and Natalie Chin at McMaster University."
+>>>>>>> Stashed changes
             android:textSize="14dp"
             android:textStyle="normal"
             android:enabled="true"
