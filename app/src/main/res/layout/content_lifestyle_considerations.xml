@@ -9,8 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.natalie.healthcareapp.side_effects"
-    tools:showIn="@layout/activity_side_effects">
+    tools:context="com.example.natalie.healthcareapp.LifestyleConsiderations"
+    tools:showIn="@layout/activity_lifestyle_considerations">
 
     <ScrollView
         android:id="@+id/ScrollView01"
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="false"
-            android:text="Low Blood Counts \n\n"
+            android:text="Sexuality \n\n you may notice a change in your sexual needs or repsonse. \n 1. Talk about it - with your partner and with us! "
             android:textSize="14dp"
             android:textStyle="normal"
             android:enabled="true"
@@ -30,6 +30,6 @@
             android:focusableInTouchMode="false"
             android:textAlignment="viewStart"
             android:visibility="visible" />
+        textView.bringToFront();
     </ScrollView>
-
 </RelativeLayout>

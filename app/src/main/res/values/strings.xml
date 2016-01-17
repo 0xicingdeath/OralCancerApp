@@ -11,4 +11,11 @@
     <string name="title_activity_constipation">Constipation</string>
     <string name="title_activity_diarrhea">Diarrhea</string>
     <string name="title_activity_hand_foot">Hand and Foot Syndome</string>
+    <string name="title_activity_oral_treatments">OralTreatments</string>
+    <string name="title_activity_contact_information">Contact Page</string>
+    <string name="title_activity_emergency">Emergency</string>
+    <string name="title_activity_handling_storage">Handling, Storage and Disposal</string>
+    <string name="title_activity_missing_too_much">Missing a Pill or Taking Too Much In Error
+    </string>
+    <string name="title_activity_lifestyle_considerations">Lifestyle Considerations</string>
 </resources>

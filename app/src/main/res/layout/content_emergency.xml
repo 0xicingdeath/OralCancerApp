@@ -9,8 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.natalie.healthcareapp.side_effects"
-    tools:showIn="@layout/activity_side_effects">
+    tools:context="com.example.natalie.healthcareapp.emergency"
+    tools:showIn="@layout/activity_emergency">
 
     <ScrollView
         android:id="@+id/ScrollView01"
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="false"
-            android:text="Low Blood Counts \n\n"
+            android:text="In any case of accidental pill taking, make sure you call the Poison Control Centre at 1(800)-268-9017. Make sure you put this number in your cell phone contacts and around the house! \n\n If your temperature is 38 degrees Celsius or greater and your Primary Team is unavailable (evenings, weekends, holidays), go to the Emergency Department. \n\n Any time you go to an Emergency Department, be sure to tell the staff there that you are on anti-cancer drugs. "
             android:textSize="14dp"
             android:textStyle="normal"
             android:enabled="true"
