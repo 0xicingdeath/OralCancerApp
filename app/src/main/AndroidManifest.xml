@@ -27,6 +27,33 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.natalie.healthcareapp.MainScreen" />
         </activity>
+        <activity
+            android:name=".TravelTipPage"
+            android:label="@string/title_activity_travel_tip_page"
+            android:parentActivityName=".MainScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.natalie.healthcareapp.MainScreen" />
+        </activity>
+        <activity
+            android:name=".SymptomsPage"
+            android:label="@string/title_activity_symptoms_page"
+            android:parentActivityName=".MainScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.natalie.healthcareapp.MainScreen" />
+        </activity>
+        <activity
+            android:name=".ContactPage"
+            android:label="@string/title_activity_contact_page"
+            android:parentActivityName=".MainScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.natalie.healthcareapp.MainScreen" />
+        </activity>
     </application>
 
 </manifest>

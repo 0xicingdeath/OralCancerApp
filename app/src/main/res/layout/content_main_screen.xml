@@ -12,30 +12,105 @@
     tools:context=".DrugList"
     tools:showIn="@layout/activity_main_screen">
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Welcome!"
+        android:text="Instructions for taking your anticancer drugs at home"
         android:id="@+id/MainHeader"
-        android:layout_row="0"
-        android:layout_column="0"
-        android:layout_marginTop="138dp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="110dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:elegantTextHeight="false"
-        android:scrollIndicators="none" />
+        android:layout_alignParentStart="true"
+        android:src="@drawable/jcc_logo"
+        android:layout_marginTop="0dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Drug"
-        android:id="@+id/DrugBut"
-        android:layout_marginEnd="58dp"
-        android:layout_marginTop="27dp"
+        android:text="Drug List"
+        android:id="@+id/druglistBut"
+        android:layout_marginTop="29dp"
+        android:onClick="openDrugPage"
         android:layout_below="@+id/MainHeader"
-        android:layout_alignEnd="@+id/MainHeader"
-        android:nestedScrollingEnabled="false"
-        android:onClick="openPage"/>
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp" />
 
-</RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symptoms"
+        android:id="@+id/SymptomsBut"
+        android:layout_below="@+id/druglistBut"
+        android:layout_alignStart="@+id/druglistBut"
+        android:onClick="openSymptomsPage"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Tips"
+        android:id="@+id/traveltipsBut"
+        android:layout_below="@+id/SymptomsBut"
+        android:layout_alignStart="@+id/SymptomsBut"
+        android:onClick="openTravelTipPage"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:id="@+id/contactBut"
+        android:layout_below="@+id/traveltipsBut"
+        android:layout_alignStart="@+id/traveltipsBut"
+        android:onClick="openContactPage"/>
+    <!--
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:id="@+id/traveltipBut"
+            android:src="@drawable/traveltips"
+            android:onClick="openTravelTipPage"
+            android:layout_below="@+id/druglistBut"
+            android:layout_alignStart="@+id/druglistBut" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:id="@+id/druglistBut"
+            android:src="@drawable/druglist"
+            android:onClick="openDrugPage"
+            android:layout_below="@+id/MainHeader"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:id="@+id/symptomsBut"
+            android:src="@drawable/symptoms"
+            android:layout_marginStart="41dp"
+            android:layout_alignTop="@+id/druglistBut"
+            android:layout_toEndOf="@+id/druglistBut"
+            android:onClick="openSymptomsPage"/>
+
+       <ImageButton
+           android:layout_width="120dp"
+           android:layout_height="120dp"
+           android:scaleType="fitXY"
+           android:id="@+id/contactBut"
+           android:layout_alignTop="@+id/traveltipBut"
+           android:layout_alignStart="@+id/symptomsBut"
+           android:src="@drawable/contactforhelp"
+           android:onClick="openContactPage"/>
+       <!-->
+
+    </RelativeLayout>

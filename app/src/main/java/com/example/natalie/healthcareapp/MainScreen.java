@@ -51,12 +51,23 @@ public class MainScreen extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void openPage(View view){
+    public void openDrugPage(View view){
         //do something in response to button click
         Intent drugPage = new Intent(this,DrugList.class);
         Log.e("test", "Button is clicked");
         startActivity(drugPage);
+    }
+    public void openTravelTipPage(View view){
 
-
+        Intent travelTipPage = new Intent(this,TravelTipPage.class);
+        startActivity(travelTipPage);
+    }
+    public void openSymptomsPage(View view){
+        Intent symptomsPage = new Intent(this,SymptomsPage.class);
+        startActivity(symptomsPage);
+    }
+    public void openContactPage(View view){
+        Intent contactPage = new Intent(this,ContactPage.class);
+        startActivity(contactPage);
     }
 }
