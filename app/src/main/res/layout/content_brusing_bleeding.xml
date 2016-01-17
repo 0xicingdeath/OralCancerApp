@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.natalie.healthcareapp.bruisingbleeding"
+    tools:showIn="@layout/activity_brusing_bleeding">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="Bruising and Bleeding \n\n\n Bruising and Bleeding due to a low blood platelet count. Platelets are the things that help our bodies clot blood. \n\n You may notice: \n\n 1. You bruise or bleed easily such as bleeding from gums when you brush your teeth. \n 2. Tiny pinpoint red and purple dots on skin. \n 3. Unusual or heavy nosebleeds. \n 4. Red or pink coloured urine. \n 5. Dizziness, constant headaches, blurred vision. \n 6. Heavy vaginal bleeding. \n 7. Black tar-like bowel movements. \n 8. Red or brown coloured sputum or vomit. \n\n To prevent bruising or bleeding: \n\n 1. Do not take medications containing Aspirin or ASA unless approved by your oncologist. You may require aspirin to prevent heart problems or stroke. \n 2. Be very careful with sharp objects such as razors or knives. \n 3. Use a soft toothbrush to avoid bleeding gums. \n 4. Use water based lubricants during sexual intercourse. \n 5. Prevent constipation, try not to strain when you have a bowel movement. \n\n If you notice any bruising or bleeding, call your primary team. If you go to an Emergency Department, tell the staff that you are on anticancer drugs. \n\n Common Symptoms of Blood Clots in the Leg: \n 1. Pain in the calf or leg muscle, most often one leg which worsens when you tip your toe towards the ceiling. \n 2. Swelling. \n 3. Tenderness \n 4. Changes in skin colour around the clot area such as turning pale, red, and blue. \n 5. Area around the clot may feel warm to touch. \n\n Note: all, one, or none of these symptoms may be present. \n\n\n Common signs of blood clot in the lung: \n\n 1. Pain is sharp and worsens when taking a deep breath. \n\n\n What to do if you think you have a blood clot: \n\n Do not wait, you should be sieen right away by your doctor or emergency room. if you are unsure, call your Primary Team. "
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible"
+            android:setHeight="1000px"/>
+        textView.bringToFront();
+    </ScrollView>
+
+</RelativeLayout>

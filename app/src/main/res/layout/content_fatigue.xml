@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.natalie.healthcareapp.fatigue"
+    tools:showIn="@layout/activity_fatigue">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="Fatigue \n\n\n Fatigue means that you are very tired andhave low energy. \n\n Possible reasons for fatgiue include: \n\n 1. A low red blood cell count. Your red blood cells carry iron and oxygen which is why you feel tired when these counts are low. \n 2. Your cancer - your cancer might cause your body to become ovractive so that it needs more energy. \n 3. Anticancer Drugs, infections, and surgery may make the body use more energy.\n 4. When cancer cells are destroyed by anticancer drugs or radiation, they release toxic products that can cause fatigue. This results in the obdy needing more energy to get rid of these toxins. \n\n\n With fatigue, you may: \n 1. Have shortness of breath. \n 2. Have a total lack of energy, be tired, sleepy, weak and worn out. \n 3. Lack concentration (cannot think) \n 4. Not feel like eating. \n 5. Feel depressed, bored, or discouraged. \n 6. Lack of motivation, interest in social activities or sex. \n\n\n What to do with fatigue: \n\n 1. Take short 20 to 30 minute rest periods. \n 2. Ask for help with tasks around the house \n 3. Work within your limits, rest between activities and don't overexert yourself. \n 4. Exercise, keep active, listen to what your body tells you. \n 5. Plan nutrious, easy to prepare meals. \n 6. Eat food high in protein. \n\n Make sure you listen to your body - it's a balance between resting, keeping active, working and exercise. Tell your primary team about your fatigue, then they can offer suggestions and information that will help you manage your symptoms of fatigue."
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible"
+            android:setHeight="1000px"/>
+        textView.bringToFront();
+    </ScrollView>
+
+</RelativeLayout>

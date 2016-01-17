@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Infections"
+    tools:showIn="@layout/activity_infections">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="Low Blood Cell Count \n\n\n Infections \n\n A low white blood cell count reduces your ability to fight infections. Some patients develop infections that can make them quite ill. You can die from a severe infection. Infections can usually be treated with antibiotics. \n\n\n Signs from an infection include: \n\n 1. Chills, shaking or feeling unwell (with or without fever) \n 2. A fever of 38 degrees or greater. \n 3. Unusual Sweating \n 4. Area of redness, tenderness or swelling. \n 5. Sore throat along with fever. \n 6. Cough with yellow or green coloured phlegm and sputum. \n 7. Burning feeling while urinating. \n 8. Diarrhea with fever \n\n\n If you have any signs of an infection, make sure you call your primary team right away. If you go to an Emergency Department, tell the staff that you are on anti-cancer drugs. Be sure to have a thermometer at home. When you are ill, doctors will likely ask you what your temperature is.\n\n\n To prevent infection: \n\n 1. Clean your hands often, especially after using the toilet. \n 2. Stay away from people who have the flu, colds, or contagious diseases. \n 3. Ask friends and family to not visit if they are feeling unwell. \n 4. Keeping your mouth clean by brushing your teeth, rinsing after meals. \n 5. Wash all fruits and vegetables before eating. \n 6. Avoid eating raw meat and fish. \n 7. Do not share drinking glasses, utensils, and toothbrushes. \n 8. Do not use ice from commercial ice machines. \n 9. Use rubber gloves if you have to clean up ater a pet. \n 10. Wear gloves while gardening"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible"
+            android:setHeight="1000px"/>
+        textView.bringToFront();
+    </ScrollView>
+
+</RelativeLayout>

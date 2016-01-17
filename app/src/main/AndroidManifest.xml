@@ -27,6 +27,34 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.natalie.healthcareapp.MainScreen" />
         </activity>
+        <activity
+            android:name=".Capecitabine"
+            android:label="@string/title_activity_capecitabine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SideEffects"
+            android:label="@string/title_activity_side_effects"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Infections"
+            android:label="@string/title_activity_side_effects2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fatigue"
+            android:label="@string/title_activity_fatigue"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrusingBleeding"
+            android:label="@string/title_activity_brusing_bleeding"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NauseaVomiting"
+            android:label="@string/title_activity_nausea_vomiting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Constipation"
+            android:label="@string/title_activity_constipation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
