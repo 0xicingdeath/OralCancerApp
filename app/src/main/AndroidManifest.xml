@@ -19,8 +19,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Test1"
-            android:label="@string/title_activity_test1"
+            android:name=".DrugList"
+            android:label="DrugList"
             android:parentActivityName=".MainScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
