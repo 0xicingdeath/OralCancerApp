@@ -29,9 +29,8 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:textAlignment="viewStart"
-            android:visibility="visible"
-            android:setHeight="1000px"/>
-        textView.bringToFront();
+            android:visibility="visible" />
+        textView.bringToFront()
     </ScrollView>
 
 </RelativeLayout>
