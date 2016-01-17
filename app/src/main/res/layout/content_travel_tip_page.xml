@@ -12,4 +12,25 @@
     tools:context="com.example.natalie.healthcareapp.TravelTipPage"
     tools:showIn="@layout/activity_travel_tip_page">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Travelling: plan ahead!"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_Header"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-Talk with your Primary Team before travelling\n\n-Carry a current list of all the drugs you take\n\n-Talk with your doctor before you get a flu shot or other immunization\n\n-Tell other doctors, dentists and health care workers you see for treatment that you are on anticancer drugs"
+        android:textSize="18dp"
+        android:id="@+id/tv_body"
+        android:layout_below="@+id/tv_Header"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

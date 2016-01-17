@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.content.Intent;
 
 public class DrugList extends AppCompatActivity {
 
@@ -26,5 +27,8 @@ public class DrugList extends AppCompatActivity {
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
+    public void openCapecitabinePage(View view){
+        Intent Capecitabine = new Intent(this, Capecitabine.class);
+        startActivity(Capecitabine);
+    }
 }

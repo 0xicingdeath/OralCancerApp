@@ -13,4 +13,35 @@
     tools:showIn="@layout/activity_druglist"
     android:longClickable="false">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capecitabine"
+        android:id="@+id/tv_capecitabine"
+        android:textSize="20dp"
+        android:onClick="openCapecitabinePage"
+        android:layout_alignBottom="@+id/img_Capecitabine"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="17dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/img_Capecitabine"
+        android:src="@drawable/capecitabine"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tv_capecitabine"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Listed anticancer drugs:"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
