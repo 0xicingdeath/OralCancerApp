@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.natalie.healthcareapp.hand_foot"
+    tools:showIn="@layout/activity_hand_foot">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="480dip"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="Hand and Foot Syndrome \n\n Pain, thinning, or redenning palms or feet including tingling, numbness and peeling. \n\n 1. May occur in days to weeks after the dose is given/after starting treatment. \n 2. Avoid activities that cause rubbbing, pressure, heat exposure to hands and feets (gripping tools, vigorous hand washing, hot baths) \n 3. Apply moisturizer liberally and often to your hands and feet, especially to the folds of teh skin. \n 4. Wear loose, comfortable footwear and clothes.\n 5. Rest and try to keep offf your feet. \n 6. See the hand-foot syndrome pamphlet \n\n Contact doctor if no improvement or if severe."
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:enabled="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:visibility="visible"
+            android:setHeight="1000px"/>
+        textView.bringToFront();
+    </ScrollView>
+
+</RelativeLayout>

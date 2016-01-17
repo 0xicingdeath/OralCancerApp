@@ -9,4 +9,6 @@
     <string name="title_activity_brusing_bleeding">Brusing Bleeding</string>
     <string name="title_activity_nausea_vomiting">Nausea and Vomiting</string>
     <string name="title_activity_constipation">Constipation</string>
+    <string name="title_activity_diarrhea">Diarrhea</string>
+    <string name="title_activity_hand_foot">Hand and Foot Syndome</string>
 </resources>

@@ -54,6 +54,14 @@
         <activity
             android:name=".Constipation"
             android:label="@string/title_activity_constipation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Diarrhea"
+            android:label="@string/title_activity_diarrhea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HandFoot"
+            android:label="@string/title_activity_hand_foot"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
